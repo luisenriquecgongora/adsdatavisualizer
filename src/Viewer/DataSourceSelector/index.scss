@@ -1,0 +1,29 @@
+#datasource-selector-container{
+  margin: 10px;
+
+  .selected-option{
+    margin: 2px;
+    padding: 4px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .select-options{
+    width: 100%;
+  }
+
+  .datasource-options-container{
+    margin-top: 10px;
+  }
+
+  .close-button{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 5px;
+    height: 5px;
+    cursor: pointer;
+  }
+
+}
